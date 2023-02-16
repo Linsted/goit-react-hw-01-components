@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FriendCard } from "./FriendCard/FriendCard";
 import css from "./FriendList.module.css"
 
-console.log(css)
+
 export const FriendList = ({ friends }) => {
     
     return (

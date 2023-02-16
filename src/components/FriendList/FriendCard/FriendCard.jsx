@@ -4,7 +4,7 @@ import css from "./FriendCard.module.css"
 
 
 export const FriendCard = ({avatar, name, isOnline}) => {
-    // console.log( isOnline)
+    
     return (
         <>
              <span className={isOnline ? css.online : css.ofline}></span> 
