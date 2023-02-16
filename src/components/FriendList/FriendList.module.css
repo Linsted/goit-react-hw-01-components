@@ -1,0 +1,10 @@
+.friend__list {
+display: flex;
+flex-direction: column;
+width: 300px;
+margin-inline: auto;
+}
+
+.friend__item{
+    display: flex;
+}
