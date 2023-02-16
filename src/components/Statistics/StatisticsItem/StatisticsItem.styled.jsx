@@ -11,10 +11,10 @@ border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 
 background-color: ${props => {
-    if (props.label === ".docx") { return "purple" };
-    if (props.label === ".pdf") { return "aqua" };
-    if (props.label === ".mp3") { return "yellow" };
-    if (props.label === ".psd") { return "pink" };
+    if (props.labelItem === ".docx") { return "purple" };
+    if (props.labelItem === ".pdf") { return "aqua" };
+    if (props.labelItem === ".mp3") { return "yellow" };
+    if (props.labelItem === ".psd") { return "pink" };
 }};
 
 `

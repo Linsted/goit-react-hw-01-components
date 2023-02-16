@@ -7,7 +7,7 @@ import { Item } from "../StatisticsItem/StatisticsItem.styled";
 export const StatisticsList = ({data}) => {
     console.log(data)
     return (<List>{data.map(item =>
-    <Item key={item.id} label={item.label}>
+    <Item key={item.id} labelItem={item.label}>
         < StatisticsItem
             label={item.label}
             percentage={item.percentage}
