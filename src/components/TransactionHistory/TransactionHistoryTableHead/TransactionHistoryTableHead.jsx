@@ -1,11 +1,11 @@
-// import PropTypes from "prop-types";
+import { TableHead } from "./TransactionHistoryTableHead.styled"
 
 
 export const TransactionHistoryTableHead = () =>
-(<thead>
+(<TableHead>
     <tr>
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>
     </tr>
-</thead>)
+</TableHead>)

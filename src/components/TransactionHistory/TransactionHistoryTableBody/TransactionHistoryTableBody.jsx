@@ -1,16 +1,16 @@
-
+import { TableBody, TableRow } from "./TransactionHistoryTableBody.styled";
 import PropTypes from "prop-types";
 
 
 export const TransactionHistoryTableBody = ({transactions}) => {
-    console.log(transactions)
-    return (<tbody>{transactions.map(transaction =>
-        <tr key={transaction.id}>
-            <td>{transaction.type}</td>
+    // console.log(transactions)
+    return (<TableBody>{transactions.map(transaction =>
+        <TableRow key={transaction.id}>
+            <td>{transaction.type[0].toUpperCase()+transaction.type.slice(1)}</td>
             <td>{transaction.amount}</td>
             <td>{transaction.currency}</td>
-    </tr>)}
-        </tbody>
+    </TableRow>)}
+        </TableBody>
     )
 }
 
